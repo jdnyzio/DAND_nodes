@@ -1,7 +1,7 @@
 **Getting Started with Python**
 ------------------------------------------
 
-> [* Running Python locally*](#running-python-locally)
+> [*Running Python locally*](#running-python-locally)
 >
 > [*IPython Notebook*](#ipython-notebook)
 >
@@ -22,11 +22,11 @@ install. To install Anaconda:
 2\. Download the Python 2.7 installer. Make sure you don't select Python
 3.4, as the course will not be compatible with other versions of Python.
 
-\* On a PC, click the Windows icon and select "Windows 64-Bit Python 2.7
+* On a PC, click the Windows icon and select "Windows 64-Bit Python 2.7
 Graphical Installer". You can also select the 32-bit installer if you
 have a 32-bit machine.
 
-\* On Mac or Linux, follow the same process but select the appropriate
+* On Mac or Linux, follow the same process but select the appropriate
 installer for your platform.
 
 3\. Run the installer and follow the instructions on the screen.
@@ -35,9 +35,9 @@ If you already have Anaconda, make sure it is up to date by opening your
 Command Prompt or terminal (see below for instructions) and running the
 commands:
 
-\* \`conda update conda\`
+* \`conda update conda\`
 
-\* \`conda update anaconda\`
+* \`conda update anaconda\`
 
 Since Anaconda can take a few minutes to download and install, you'll be
 able to follow along in the next few videos and exercises without it. We
@@ -63,22 +63,22 @@ link (TODO: link)
 
 2\. Open your Command Prompt (PC) or terminal (Mac or Linux)
 
-\* On a PC click the Start button and search for "Command Prompt".
+* On a PC click the Start button and search for "Command Prompt".
 
-\* On a Mac type command + spacebar. Then, type ''terminal" in the
+* On a Mac type command + spacebar. Then, type ''terminal" in the
 Spotlight Search. You can also search for "terminal" in finder.
 
 3\. Navigate to the directory where you downloaded the IPython notebook
 file.
 
-\* On a PC you might type: \`cd C:\\Users\\username\\Downloads\\\`,
-replacing your username. \<a
-href="[*http://www.7tutorials.com/command-prompt-how-use-basic-commands*](http://www.7tutorials.com/command-prompt-how-use-basic-commands)"
-target="\_blank"\>Learn more about basic terminal commands\</a\>.
+* On a PC you might type: \`cd C:\\Users\\username\\Downloads\\\`,
+replacing your username. 
+<a href="[*http://www.7tutorials.com/command-prompt-how-use-basic-commands*](http://www.7tutorials.com/command-prompt-how-use-basic-commands)"
+target="\_blank"\>Learn more about basic terminal commands</a\>.
 
-\* On Mac or Linux you might type: \`cd \~/Downloads\`. \<a
-href="[*https://www.udacity.com/course/linux-command-line-basics--ud595*](https://www.udacity.com/course/linux-command-line-basics--ud595)"
-target="\_blank"\>Learn more about basic terminal commands.\</a\>
+* On Mac or Linux you might type: \`cd \~/Downloads\`
+* <a href="[*https://www.udacity.com/course/linux-command-line-basics--ud595*](https://www.udacity.com/course/linux-command-line-basics--ud595)"
+target="\_blank"\>Learn more about basic terminal commands.</a>
 
 4\. Run the command \`ipython notebook tutorial\_notebook.ipynb\` in your
 terminal. \*\*Do not close your terminal or command prompt.\*\*
