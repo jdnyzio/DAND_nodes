@@ -150,19 +150,16 @@ and download a XML OSM dataset. The dataset should be at least **50MB in
 size (uncompressed)**. We recommend using **one** of following methods
 of downloading a dataset:
 
--   Download a preselected metro area from [**Map
-    > Zen**](https://mapzen.com/metro-extracts/) (Note that data
+-   Download a preselected metro area from 
+    > [**MapZen**](https://mapzen.com/metro-extracts/) (Note that data
     > obtained from Map Zen is compressed and will usually expand to
     > sizes that meet project requirements.)
 
--   Use the [**Overpass API**](http://overpass-api.de/query_form.html)
-    > to download a custom square area. Explanation of the syntax can
-    > found in the
-    > [**wiki**](http://wiki.openstreetmap.org/wiki/Overpass_API) . In
-    > general you will want to use the following
-    > query:(node(minimum\_latitude, minimum\_longitude,
-    > maximum\_latitude, maximum\_longitude);\<;);out meta;e.g.
-    > (node(51.249,7.148,51.251,7.152);\<;);out meta; the meta option is
+-   Use the [**Overpass API**](http://overpass-api.de/query_form.html) to download a custom square area. 
+    > Explanation of the syntax can be found in the [**wiki**](http://wiki.openstreetmap.org/wiki/Overpass_API) . 
+    > In general you will want to use the following query:
+    > (node(minimum\_latitude, minimum\_longitude, maximum\_latitude, maximum\_longitude);\<;);out meta; 
+    > e.g.(node(51.249,7.148,51.251,7.152);\<;);out meta; the meta option is
     > included so the elements contain timestamp and user information.
     > You can use the OpenStreetMap [**Export
     > Tool**](http://www.openstreetmap.org/export#map=5/42.618/-7.559)
