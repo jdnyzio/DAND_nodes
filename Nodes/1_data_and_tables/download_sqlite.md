@@ -12,15 +12,15 @@ SQLite3 on your computer.
 operating system. Open your terminal and type **sqlite3.** If you see
 something like the following
 
-> “SQLite version 3.8.4.1 2014-03-11 15:27:36
+'''SQLite version 3.8.4.1 2014-03-11 15:27:36
 
-> Enter ".help" for usage hints.
+Enter ".help" for usage hints.
 
-> Connected to a **transient in-memory database**.
+Connected to a **transient in-memory database**.
 
-> Use ".open FILENAME" to reopen on a persistent database.
+Use ".open FILENAME" to reopen on a persistent database.
 
-> sqlite\>”
+sqlite\>'''
 
 Then you already have SQLite installed. Type **.exit** to get back to your
 terminal and you’re ready to go!
