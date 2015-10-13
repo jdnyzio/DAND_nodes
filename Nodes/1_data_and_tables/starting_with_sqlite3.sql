@@ -1,5 +1,13 @@
+#After downloading SQLite3, you'll have the chance to run many of the class exercises locally.
+
+#This will help prepare you for the skills you'll need to complete the project later on, 
+#and give you confidence managing your own local environment.  Here are a few simple commands 
+#to help get you started.  
+
+#Type the following commands directly into your terminal window to get started using SQLite3.
+
 #Navigate to the class_db folder
-cd ../class_db
+cd class_db
 #Look at the databases
 ls
 #Go into the animals database
@@ -25,4 +33,5 @@ sqlite3 mooseball.db
 .tables
 SELECT * FROM players;
 
-#This is how you'll be able to access the databases locally.  You can also do many of the exercises in the browser.  Having a local setup will be important when you go off on your own so try each of the exercises this way whenever you can.
+#These commands are a simple way to get started using your new SQLite environment.
+#Try to continue experimenting locally while progressing through the course.
