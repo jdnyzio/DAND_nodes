@@ -73,12 +73,11 @@ file.
 
 * On a PC you might type: \`cd C:\\Users\\username\\Downloads\\\`,
 replacing your username. 
-<a href="[*http://www.7tutorials.com/command-prompt-how-use-basic-commands*](http://www.7tutorials.com/command-prompt-how-use-basic-commands)"
-target="\_blank"\>Learn more about basic terminal commands</a\>.
 
-* On Mac or Linux you might type: \`cd \~/Downloads\`
-* <a href="[*https://www.udacity.com/course/linux-command-line-basics--ud595*](https://www.udacity.com/course/linux-command-line-basics--ud595)"
-target="\_blank"\>Learn more about basic terminal commands.</a>
+* On Mac or Linux you might type: \`cd \~/Downloads\`.
+
+* [*Learn more about basic terminal commands*](https://www.udacity.com/course/linux-command-line-basics--ud595)
+
 
 4\. Run the command \`ipython notebook tutorial\_notebook.ipynb\` in your
 terminal. \*\*Do not close your terminal or command prompt.\*\*
