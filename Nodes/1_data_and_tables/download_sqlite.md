@@ -12,7 +12,8 @@ SQLite3 on your computer.
 operating system. Open your terminal and type **sqlite3.** If you see
 something like the following
 
-```SQLite version 3.8.4.1 2014-03-11 15:27:36
+```
+SQLite version 3.8.4.1 2014-03-11 15:27:36
 
 Enter ".help" for usage hints.
 
@@ -20,7 +21,8 @@ Connected to a **transient in-memory database**.
 
 Use ".open FILENAME" to reopen on a persistent database.
 
-sqlite\>```
+sqlite>
+```
 
 Then you already have SQLite installed. Type **.exit** to get back to your
 terminal and you’re ready to go!
@@ -30,7 +32,7 @@ been installed on your computer. Downloading this software is a great
 way to get started with python and comes packaged with many tools you
 may end up using as you continue to work with data.
 
-\* If you’d information on how to install the Python Anaconda
+* If you’d information on how to install the Python Anaconda
 Distribution on your computer have a look at (INSERT LINK HERE)
 
 3\. If you would like to see alternative ways to download SQLite on your
