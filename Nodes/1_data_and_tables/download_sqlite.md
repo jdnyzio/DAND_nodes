@@ -41,7 +41,7 @@ Point*](http://www.tutorialspoint.com/sqlite/sqlite_installation.htm%20in%20your
 for more details on getting started. This site is also a great reference
 for SQLite materials and commands.
 
-Once you’ve got SQLite3 downloaded on your computer, you’ll be able to
+> Once you’ve got SQLite3 downloaded on your computer, you’ll be able to
 run commands locally and practice building and querying a live database.
 This is an important skill to have when working with data and will come
 in handy if you are completing the OpenStreetMaps project associated
