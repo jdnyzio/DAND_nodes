@@ -38,6 +38,7 @@
 > [*Rubric*](#rubric)
 >
 > [*Submission*](#submission)
+
 --------------------------------------------
 
 **Project Overview**
