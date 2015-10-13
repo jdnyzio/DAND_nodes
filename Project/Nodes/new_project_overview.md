@@ -95,18 +95,15 @@ you create!
 
 After completing the project, you will be able to:
 
--   Assess the quality of the data for validity, accuracy, completeness,
-    > consistency and uniformity
+-   Assess the quality of the data for validity, accuracy, completeness, consistency and uniformity
 
--   Parse and gather data from popular file formats such as json, xml,
-    > csv, html.
+-   Parse and gather data from popular file formats such as json, xml, csv, html.
 
--   Store data into a Relational Database Management System and answer
-    > questions about it using the SQL query language.
+-   Store data into a Relational Database Management System and answer questions about it using the SQL query language.
 
 -   Use QGIS, an open source geographic information system, to convert
-    > osm geographical data into an SQLite database to create and host
-    > your own map online.
+    osm geographical data into an SQLite database to create and host
+    your own map online.
 
 **Why is this Important to my Career?**
 ---------------------------------------
