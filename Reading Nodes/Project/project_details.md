@@ -22,11 +22,7 @@
 >
 > [*Step Seven - Document your Work*](#step-seven---document-your-work)
 >
-> [*Evaluation*](#evaluation)
->
-> [*Rubric*](#rubric)
->
-> [*Submission*](#submission)
+
 
 
 **How do I Complete this Project?**
