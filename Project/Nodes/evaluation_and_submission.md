@@ -11,7 +11,7 @@ Ready to submit your project?  Collect the following files:
 <ol>
 <li>A pdf document containing your answers to the rubric questions. This file should document your data wrangling process. </li>
 <li>Your Python code for Lesson 6 quizzes, as well as any additional code you used in auditing and cleaning your dataset for the final project.</li>
-<li>A text file containing a link to the map position you wrangled in your project, a short description of the area and a reason for your choice.</li>
+<li>A text file containing a link to the map position you wrangled in your project, a link to your QGIS cloud hosted map location, and a short description of the area and a reason for your choice.</li>
 <li>An .osm file containing a sample part of the map region you used (around 1 - 10 MB in size). See instructor notes.</li>
 <li>A text file containing a list of  Web sites, books, forums, blog posts, github repositories etc that you referred to or used  in this  submission (Add N/A if you did not use  such resources).</li>
 </ol>
