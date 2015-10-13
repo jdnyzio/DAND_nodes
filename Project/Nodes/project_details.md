@@ -1,4 +1,5 @@
 **OpenStreetMap Project Details**
+------------------------------------------
 
 > [*How do I Complete this Project?*](#how-do-i-complete-this-project)
 >
