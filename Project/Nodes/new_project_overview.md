@@ -229,32 +229,34 @@ specifications" if it meets specifications in all the criteria
 
 Ready to submit your project? Collect the following files:
 
-1.  A pdf document containing your answers to the rubric questions. This
-    > file should document your data wrangling process.
+1.  A pdf document containing your answers to the rubric questions.
+    > This file should document your data wrangling process.
 
-2.  Your Python code for the OpenStreetMap Case Study, as well as any
-    > additional code you used in auditing and cleaning your dataset for
+2.  Your Python code for the OpenStreetMap Case Study, 
+    > as well as any additional code you used in auditing and cleaning your dataset for
     > the final project.
 
-3.  A text file containing a link to the map position you wrangled in
-    > your project, a short description of the area and a reason for
-    > your choice.
+3.  A text file containing 
+    > Link to the map position you wrangled in your project
+    > Link to the QGIS cloud hosted map you've created. 
+    > Short description of the area and a reason for your choice.
 
 4.  An .osm file containing a sample part of the map region you used
     > (around 1 - 10 MB in size). See instructor notes.
 
-5.  A text file containing a list of Web sites, books, forums, blog
+5.  A text file containing a list of 
+    > Web sites, books, forums, blog
     > posts, github repositories etc that you referred to or used in
     > this submission (Add N/A if you did not use such resources).
 
 Then go back to your Udacity Home, click on the project, and follow the
 instructions to submit:
 
--   If you want to submit your files through a "Link to Project", upload
-    > your project files onto Github and send us the link.
+-   If you want to submit your files through a "Link to Project"
+    > Upload your project files onto Github and send us the link.
 
 -   If you instead want to submit your files through "Upload a Zip",
-    > compress your project directory, and submit that zip file.
+    > Compress your project directory, and submit that zip file.
 
 You should receive a full evaluation of your project within 24 hours of
 your original submission.
