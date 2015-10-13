@@ -38,8 +38,6 @@
 > [*Rubric*](#rubric)
 >
 > [*Submission*](#submission)
-
-![](media/image02.png)![](media/image03.png)
 --------------------------------------------
 
 **Project Overview**
