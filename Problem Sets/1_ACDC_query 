@@ -1,0 +1,24 @@
+#What songs were written by the composer "AC/DC"
+
+#Answer
+
+SELECT Name FROM Track WHERE Composer="AC/DC"; 
+
+Go Down
+Dog Eat Dog
+Let There Be Rock
+Bad Boy Boogie
+Problem Child
+Overdose
+Hell Ain't A Bad Place To Be
+Whole Lotta Rosie
+
+#In class they have not composed the query but they saw
+
+SELECT food
+FROM diet
+WHERE species = 'orangutan'
+
+#The idea is to piece what they've seen with their new database
+and use similar ideas to create their query.  They are also using 
+the schema that they learned from the previous slide.

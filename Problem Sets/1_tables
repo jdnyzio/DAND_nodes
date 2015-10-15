@@ -1,0 +1,22 @@
+#Which of the following are tables within the Chinook database?
+Use .help to learn more about SQLite commands!
+
+#List names of possible tables, checklist
+
+#Answer
+.tables
+
+Album          Employee       InvoiceLine    PlaylistTrack
+Artist         Genre          MediaType      Track        
+Customer       Invoice        Playlist  
+
+What is the purpose?
+This is there first experience with SQLite and 
+running a database.  In the previous slide will be 
+the the download instructions and getting started.
+
+This will test if they've got everything setup correctly, 
+and if they can log into their database.  They can use .help 
+and find that to show the table names in their database they
+need to type .tables.  Then they can look and see what tables
+exist and match them to the answer.
