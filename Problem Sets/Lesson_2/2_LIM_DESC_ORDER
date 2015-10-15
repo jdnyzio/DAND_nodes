@@ -1,0 +1,6 @@
+What is the 8th highest total and what billing city and country is the invoice for?
+
+
+SELECT * FROM Invoice ORDER BY Total DESC LIMIT 10;
+SELECT InvoiceId, BillingCity, BillingCountry, Total FROM Invoice ORDER BY Total DESC LIMIT 10;
+
