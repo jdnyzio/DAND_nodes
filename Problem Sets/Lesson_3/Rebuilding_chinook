@@ -1,0 +1,26 @@
+CREATE TABLE Album(AlbumId, Title, ArtistId)
+
+.separator , 
+.import Chinook_CSVs/Album.csv Album
+
+sqlite> CREATE TABLE Artist(ArtistId, Name);
+sqlite> .tables
+Album   Artist
+sqlite> .separator , 
+sqlite> .import Chinook_CSVs/Artist.csv Artist
+
+sqlite> DROP TABLE Album;
+sqlite> .table
+Artist
+
+.schema
+
+sqlite> .schema     
+CREATE TABLE Artist(ArtistId, Name);
+
+CREATE TABLE Artist(ArtistId, Name);
+sqlite> SELECT * FROM Artist WHERE Name='Michele Campanella';
+269,Michele Campanella
+sqlite> DELETE FROM Artist WHERE Name='Michele Campanella';
+sqlite> SELECT * FROM Artist WHERE Name='Michelle Campanella';
+269,Michelle Campanella
