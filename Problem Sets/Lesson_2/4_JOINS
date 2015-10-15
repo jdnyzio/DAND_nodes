@@ -1,0 +1,14 @@
+#Listing Artist name and album titles together by joining tables
+
+SELECT Album.Title, Artist.Name 
+FROM Album JOIN Artist 
+ON Artist.ArtistId = Album.ArtistId;
+
+#Listing Artist name and album titles together by joining tables and selecting a specific artist
+SELECT Album.Title, Artist.Name 
+FROM Album JOIN Artist ON Artist.ArtistId = Album.ArtistId 
+WHERE Name ='Iron Maiden';
+
+SELECT Album.Title, Artist.Name 
+FROM Album JOIN Artist ON Artist.ArtistId = Album.ArtistId 
+WHERE Name ='Iron Maiden';
