@@ -3,8 +3,8 @@
 
 #Can you find the schema of the track table and fill in the missing values?
 
+.schema Track
 
-#Answer
 CREATE TABLE [Track]
 (
     [TrackId] INTEGER  NOT NULL,
@@ -16,7 +16,7 @@ CREATE TABLE [Track]
     [Milliseconds] INTEGER  NOT NULL,
     [Bytes] INTEGER,
     [UnitPrice] NUMERIC(10,2)  NOT NULL,
-    CONSTRAINT [PK_Track] PRIMARY KEY  ([TrackId]),
+    CONSTRAINT [PK_Track] PRIMARY  ([TrackId]),
     FOREIGN KEY ([AlbumId]) REFERENCES [Album] ([AlbumId]) 
 		ON DELETE NO ACTION ON UPDATE NO ACTION,
     FOREIGN KEY ([GenreId]) REFERENCES [Genre] ([GenreId]) 
@@ -24,13 +24,3 @@ CREATE TABLE [Track]
     FOREIGN KEY ([MediaTypeId]) REFERENCES [MediaType] ([MediaTypeId]) 
 		ON DELETE NO ACTION ON UPDATE NO ACTION
 );
-
-
-#Why this question?
-
-#The student will need to use .help and understand how .schema ?TABLE? works.
-#It is their first introduction to schema and will show they are able to understand what 
-#they are seeing.  Getting the schema will be important to be able to ask query questions
-#later in the problem set.  I chose track because it has a few rows.  They might be a little 
-overwhelmed but with a fill in the blanks question they should be able to copy what they 
-are seeing and gain a bit of confidence reading a schema.

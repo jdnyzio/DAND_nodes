@@ -1,0 +1,17 @@
+#What is the Name of each song written by the Composer "AC/DC".
+
+#Answer
+
+SELECT Name FROM Track WHERE Composer="AC/DC"; 
+
+#Hint - Is there a table that contains columns Name and Composer?
+
+Go Down
+Dog Eat Dog
+Let There Be Rock
+Bad Boy Boogie
+Problem Child
+Overdose
+Hell Ain't A Bad Place To Be
+Whole Lotta Rosie
+
