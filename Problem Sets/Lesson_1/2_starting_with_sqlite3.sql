@@ -1,8 +1,8 @@
 #After downloading everything from the last slide, you're
-now the proud owner of a local SQLite environment!
+#now the proud owner of a local SQLite environment!
 
 #Here are some important commands you can use to help explore your
-new toys.
+#new toys.
 
 #Type the following commands into your terminal window to get started using SQLite3.
 
