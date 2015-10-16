@@ -24,12 +24,11 @@ SELECT * FROM Invoice;
 SELECT * FROM instruments;
 #Whoops, what happened!?
 .tables
-
 #Looks like instruments isn't actually a table in the database.  
 #No harm done though.  Don't be afraid to try new things :)
 
 #Have a look at some of the other tables just how you did with the Invoice table.
-SELECT * FROM tableName;
+SELECT * FROM Artist;
 #Go crazy, explore it all!
 
 #When you're all done exploring you can leave the database.
