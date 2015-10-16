@@ -10,8 +10,12 @@
 cd your/file/path/class_db
 ls
 
-#Let's log into the Chinook_Sqlite database
+#Let's log into the Chinook_Sqlite database.
 sqlite3 Chinook_Sqlite.sqlite
+
+#Here's a quick way to see all your new superpowers!
+.help
+#Reaching out for help is a great way to learn.
 
 #What tables do you see in the database?
 .tables
