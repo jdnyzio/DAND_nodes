@@ -1,17 +1,23 @@
-Your New Environment
+Welcome to your SQLite Environment!
 =============================
 
 After following instructions from the last slide, you're
-now the proud owner of a local SQLite environment!  You are
-ready to start navigating the Chinook Database which you'll be working 
-with through the next few problem sets.
+now the proud owner of a local SQLite environment.  You are
+ready to start navigating your brand new workspace.
+
+We'll start off by getting you familiar with the Chinook database which 
+you'll be using throughout these problem sets to practice using SQL.
+
+The Chinook database represents a digital media store, including 
+tables for artists, albums, media tracks, invoices and customers.  
+
+##Accessing your database
 
 * Below are some important commands you can use to help explore your
 new workspace.
 
 * Type the following commands into your terminal window to get started using SQLite3.
 
-##Accessing your database
 ```
 $ cd your/file/path/class_db
 $ ls
@@ -19,7 +25,7 @@ $ ls
 
 Let's log into the Chinook_Sqlite database.
 ```
-sqlite3 Chinook_Sqlite.sqlite
+$ sqlite3 Chinook_Sqlite.sqlite
 ```
 
 ##Finding Help
