@@ -2,8 +2,8 @@
 ------------------------------------------
 
 After following instructions from the last slide, you're
-now the proud owner of a local SQLite environment.  You are
-ready to start navigating your brand new workspace.
+now the proud owner of a local SQLite environment.  
+You are ready to start navigating your brand new workspace.
 
 > [*Introduction*](#introduction)
 >
@@ -24,33 +24,32 @@ ready to start navigating your brand new workspace.
 **Introduction**
 --------------------
 
-We'll start off by getting you familiar with the Chinook database which 
-you'll be using throughout these problem sets to practice using SQL.
+Let's have a look at the Chinook database which you'll be using throughout the problem sets in this course.
 
-The Chinook database represents a digital media store, including 
-tables for artists, albums, media tracks, invoices and customers.  
+The Chinook database represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.  
 
 **Accessing your Database**
 --------------------
 
-* Below are some important commands you can use to help explore your
-new workspace.
-
-* Type the following commands into your terminal window to get started using SQLite3.
+You'll be accessing sqlite3 from your terminal window.
+First, you'll need to navigate your terminal to the folder you've downloaded.
 
 ```
 $ cd your/file/path/class_db
 $ ls
+
+TODO-LIST FOLDER ITEMS HERE
 ```
 
-Let's log into the Chinook_Sqlite database.
+Now you can log into the Chinook_Sqlite database.
 ```
 $ sqlite3 Chinook_Sqlite.sqlite
 ```
+Welcome to the database!
 
 **Getting Help**
 --------------------
-Use the help command to find details about all your new database powers.
+You can use the help command at any time to find details about all your new database superpowers.
 
 ```
 sqlite> .help
@@ -59,7 +58,7 @@ sqlite> .help
 **Looking at tables**
 --------------------
 
-What tables do you see in the database?
+What tables do you see in your database?
 ```
 sqlite> .tables
 
@@ -70,27 +69,32 @@ Customer       Invoice        Playlist
 
 **Querying Tables**
 --------------------
-Look at all the data from the Invoice table.
+Have a look at all the data from the Invoice table.
 ```
 sqlite> SELECT * FROM Invoice;
 ```
+Your first query, AWESOME!
+
 How about the Employee table?
 ```
-sqlite> SeLECt * froM EmPlOYee;
+sqlite> SELECT * FROM Employee;
 ```
-Did you notice that?  Capitalization doesn't matter in a SQL query!
-You'll often see commands such as SELECT, FROM, and WHERE in capital letters.
-This is only used to help us read it more easily but the computer doesn't care at all.
+
+You nailed it!
+
 
 **Finding the schema**
 --------------------
-You can also look at the schema using the .schema command.
+You can also look at the schema of each table using the .schema command.
 
 ```
 sqlite> .schema Album
 ```
-Use .help, .table, .schema look at some of the other tables.  
-Go crazy, explore it all!
+
+Continue using .help, .table, .schema look at some of the other tables.  
+You'll be getting very familiar with this database as we continue through the course.
+
+Go crazy, explore it all!  
 
 **Leaving the Database**
 --------------------
