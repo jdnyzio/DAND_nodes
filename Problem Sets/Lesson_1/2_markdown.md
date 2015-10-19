@@ -50,11 +50,11 @@ $ sqlite3 Chinook_Sqlite.sqlite
 
 **Getting Help**
 --------------------
+Use the help command to find details about all your new database powers.
+
 ```
 sqlite> .help
 ```
-Reaching out for help is a great way to learn.
-
 
 **Looking at tables**
 --------------------
