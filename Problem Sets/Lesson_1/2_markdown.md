@@ -6,12 +6,12 @@ now the proud owner of a local SQLite environment!  You are
 ready to start navigating the Chinook Database which you'll be working 
 with through the next few problem sets.
 
-Here are some important commands you can use to help explore your
+* Below are some important commands you can use to help explore your
 new workspace.
 
-Type the following commands into your terminal window to get started using SQLite3.
+* Type the following commands into your terminal window to get started using SQLite3.
 
-Take a peek at your new class_db folder through your terminal window.
+* Take a peek at your new class_db folder through your terminal window.
 ```
 cd your/file/path/class_db
 ls
