@@ -3,7 +3,7 @@ Write the table names associated with each of the following schemas.
 ##Table 1
 
 ````
-CREATE TABLE [Album]
+CREATE TABLE [-----]
 (
     [AlbumId] INTEGER  NOT NULL,
     [Title] NVARCHAR(160)  NOT NULL,
@@ -17,7 +17,7 @@ CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId]);
 ````
 ##Table 2
 ````
-CREATE TABLE [InvoiceLine]
+CREATE TABLE [-----]
 (
     [InvoiceLineId] INTEGER  NOT NULL,
     [InvoiceId] INTEGER  NOT NULL,
@@ -36,7 +36,7 @@ CREATE INDEX [IFK_InvoiceLineTrackId] ON [InvoiceLine] ([TrackId]);
 ````
 ##Table 3
 ````
-CREATE TABLE [Genre]
+CREATE TABLE [-----]
 (
     [GenreId] INTEGER  NOT NULL,
     [Name] NVARCHAR(120),
@@ -46,7 +46,7 @@ CREATE UNIQUE INDEX [IPK_Genre] ON [Genre]([GenreId]);
 ````
 ##Table 4
 ````
-CREATE TABLE [Invoice]
+CREATE TABLE [-----]
 (
     [InvoiceId] INTEGER  NOT NULL,
     [CustomerId] INTEGER  NOT NULL,
@@ -63,3 +63,4 @@ CREATE TABLE [Invoice]
 );
 CREATE UNIQUE INDEX [IPK_Invoice] ON [Invoice]([InvoiceId]);
 CREATE INDEX [IFK_InvoiceCustomerId] ON [Invoice] ([CustomerId]);
+````
