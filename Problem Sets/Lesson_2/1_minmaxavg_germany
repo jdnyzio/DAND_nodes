@@ -1,11 +1,8 @@
 #Min max avg in germany
 
-
-select max(name) from animals;
-SELECT max(Total) from Invoice WHERE BillingCountry='Germany';
-SELECT min(Total) from Invoice WHERE BillingCountry='Germany';
-SELECT avg(Total) from Invoice WHERE BillingCountry='Germany';
+SELECT min(Total), max(Total), avg(Total) from Invoice WHERE BillingCountry='Germany';
 
 
-
+SELECT BillingCountry, min(Total), max(Total), avg(Total) 
+FROM Invoice;
 

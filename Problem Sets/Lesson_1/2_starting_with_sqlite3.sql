@@ -1,8 +1,10 @@
-#After downloading everything from the last slide, you're
-#now the proud owner of a local SQLite environment!
+#After following instructions from the last slide, you're
+#now the proud owner of a local SQLite environment!  You are
+#ready to start navigating the Chinook Database which you'll be working 
+#with through the next few problem sets.
 
 #Here are some important commands you can use to help explore your
-#new toys.
+#new workspace.
 
 #Type the following commands into your terminal window to get started using SQLite3.
 
@@ -22,7 +24,7 @@ sqlite3 Chinook_Sqlite.sqlite
 
 #Could you tell me what data is in the Invoice table?
 SELECT * FROM Invoice;
-#Thanks so much!
+#Thanks for your help!
 
 #Try another table.
 SELECT * FROM instruments;

@@ -2,23 +2,29 @@ What 5 countries have the most total invoices?  What is the total number of invo
 
 #Constructing the Query
 
-#Step 1
+#Step 
 #What are you trying to find out?
+The Number of Invoices to each BillingCountry
 
-#Step 2
+#Step 
 #What table do you need to look at?
+Invoice
 
-#Step 3
+#Step
 #What columns will you need for the query?
+BillingCountry, total number of invoices
 
-#Step 4
+#Step 
 #Do you need to do anything with this column?
+COUNT 
 
-#Step 5
+#Step 
 How should they be ordered?
+Total number of invoices at the top (DESC)
 
-#Step 6
+#Step
 How many records do you want to see?
+5, LIMIT 5
 
 #Now you can put it all together!
 
