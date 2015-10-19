@@ -24,9 +24,11 @@ You are ready to start navigating your brand new workspace.
 **Introduction**
 --------------------
 
-Let's have a look at the Chinook database which you'll be using throughout the problem sets in this course.
+Let's have a look at the Chinook database. You'll be using this throughout the problem sets in this course.
 
 The Chinook database represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.  
+
+TODO- FIND MORE HERE!
 
 **Accessing your Database**
 --------------------
