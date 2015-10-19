@@ -13,8 +13,8 @@ new workspace.
 
 ##Accessing your database
 ```
-cd your/file/path/class_db
-ls
+$ cd your/file/path/class_db
+$ ls
 ```
 
 Let's log into the Chinook_Sqlite database.
@@ -24,13 +24,13 @@ sqlite3 Chinook_Sqlite.sqlite
 
 ##Finding Help
 ```
-.help
+sqlite> .help
 ```
 Reaching out for help is a great way to learn.
 
 What tables do you see in the database?
 ```
-.tables
+sqlite> .tables
 
 Album          Employee       InvoiceLine    PlaylistTrack
 Artist         Genre          MediaType      Track        
@@ -40,20 +40,20 @@ Customer       Invoice        Playlist
 ##Querying your tables
 Look at all the data from the Invoice table.
 ```
-SELECT * FROM Invoice;
+sqlite> SELECT * FROM Invoice;
 ```
 Try another table.
 ```
-SeLECt * froM EmPlOYee;
+sqlite> SeLECt * froM EmPlOYee;
 ```
 Did you notice that?  Capitalization doesn't matter in a SQL query!
-You'll often see commands such as SELECT, FROM, WHERE in capital letters.
+You'll often see commands such as SELECT, FROM, and WHERE in capital letters.
 This is only used to help us read it more easily but the computer doesn't care at all.
 
 ##Schema
 You can also look at the schema using the .schema command.
 ```
-.schema Album
+sqlite> .schema Album
 
 CREATE TABLE [Album]
 (
@@ -73,12 +73,12 @@ Go crazy, explore it all!
 
 When you're all done exploring you can leave the database.
 ```
-.exit 
+sqlite> .exit 
 ```
 
 Can we query the table from outside the database?
 ```
-SELECT * FROM Album;
+$ SELECT * FROM Album;
 ```
 No you can't! Great question though.  Stay curious!
 
