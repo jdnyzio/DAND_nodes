@@ -1,5 +1,22 @@
-Welcome to your SQLite Environment!
-=============================
+**Welcome to your SQLite Environment!**
+------------------------------------------
+
+> [*Introduction*](#Introduction)
+>
+> [*Accessing your Database*](#Accessing your Database)
+>
+> [*Why this Project?*](#why-this-project)
+>
+> [*What will I learn?*](#what-will-i-learn)
+>
+> [*Why is this Important to my
+> Career?*](#why-is-this-important-to-my-career)
+>
+
+--------------------------------------------
+
+**Introduction**
+--------------------
 
 After following instructions from the last slide, you're
 now the proud owner of a local SQLite environment.  You are
@@ -11,7 +28,8 @@ you'll be using throughout these problem sets to practice using SQL.
 The Chinook database represents a digital media store, including 
 tables for artists, albums, media tracks, invoices and customers.  
 
-##Accessing your database
+**Accessing your Database**
+--------------------
 
 * Below are some important commands you can use to help explore your
 new workspace.
@@ -48,7 +66,7 @@ Look at all the data from the Invoice table.
 ```
 sqlite> SELECT * FROM Invoice;
 ```
-Try another table.
+How about the Employee table?
 ```
 sqlite> SeLECt * froM EmPlOYee;
 ```
@@ -56,7 +74,7 @@ Did you notice that?  Capitalization doesn't matter in a SQL query!
 You'll often see commands such as SELECT, FROM, and WHERE in capital letters.
 This is only used to help us read it more easily but the computer doesn't care at all.
 
-##Schema
+## Finding the schema
 You can also look at the schema using the .schema command.
 ```
 sqlite> .schema Album
@@ -76,6 +94,8 @@ CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId]);
 ```
 Use .help, .table, .schema look at some of the other tables.  
 Go crazy, explore it all!
+
+##Leaving the database
 
 When you're all done exploring you can leave the database.
 ```
