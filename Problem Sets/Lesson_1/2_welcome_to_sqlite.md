@@ -25,6 +25,7 @@ Welcome to your SQLite environment!  Here you'll learn how to navigate through y
 We're going to take a look at the Chinook database which you've downloaded from the Downloadables section of this course.
 
 The Chinook database represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.  
+
 You'll be getting very familiar with this database as we continue through the course. 
 
 Let's get started!
@@ -33,6 +34,7 @@ Let's get started!
 --------------------
 
 You'll be accessing sqlite3 from your terminal window.
+
 First, you'll need to navigate your terminal to the folder you've downloaded.
 
 ```
