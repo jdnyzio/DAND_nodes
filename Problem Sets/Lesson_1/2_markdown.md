@@ -11,6 +11,8 @@ ready to start navigating your brand new workspace.
 >
 > [*Getting Help*](#getting-help)
 >
+> [*Looking at Tables*](#looking-at-tables) 
+>
 > [*Querying Tables?*](#querying-tables)
 >
 > [*Finding the schema*](#finding-the-schema)
@@ -52,6 +54,10 @@ $ sqlite3 Chinook_Sqlite.sqlite
 sqlite> .help
 ```
 Reaching out for help is a great way to learn.
+
+
+**Looking at tables**
+--------------------
 
 What tables do you see in the database?
 ```
