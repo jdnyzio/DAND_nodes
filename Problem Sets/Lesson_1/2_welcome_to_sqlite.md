@@ -3,7 +3,7 @@
 
 After following instructions from the last slide, you're
 now the proud owner of a local SQLite environment.  
-You are ready to start navigating your brand new workspace.
+You are ready to start navigating your brand new workspace!
 
 > [*Introduction*](#introduction)
 >
@@ -24,11 +24,12 @@ You are ready to start navigating your brand new workspace.
 **Introduction**
 --------------------
 
-Let's have a look at the Chinook database. You'll be using this throughout the problem sets in this course.
+Here you'll learn how to navigate to your new database and do a few simple commands using SQLite.
 
+We'll have a look at the Chinook database.  You'll be getting very familiar with this database as we continue through the course. 
 The Chinook database represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.  
 
-TODO- FIND MORE HERE!
+Let's have a look!
 
 **Accessing your Database**
 --------------------
@@ -94,8 +95,6 @@ sqlite> .schema Album
 ```
 
 Continue using .help, .table, .schema look at some of the other tables.  
-You'll be getting very familiar with this database as we continue through the course.
-
 Go crazy, explore it all!  
 
 **Leaving the Database**
