@@ -5,13 +5,13 @@
 >
 > [*Accessing your Database*](#accessing-your-database)
 >
-> [*Why this Project?*](#why-this-project)
+> [*Getting Help*](#getting-help)
 >
-> [*What will I learn?*](#what-will-i-learn)
+> [*Querying Tables?*](#querying-tables)
 >
-> [*Why is this Important to my
-> Career?*](#why-is-this-important-to-my-career)
+> [*Finding the schema*](#finding-the-schema)
 >
+> [*Leaving the Database*](#leaving-the-database)
 
 --------------------------------------------
 
@@ -46,7 +46,8 @@ Let's log into the Chinook_Sqlite database.
 $ sqlite3 Chinook_Sqlite.sqlite
 ```
 
-##Finding Help
+**Getting Help**
+--------------------
 ```
 sqlite> .help
 ```
@@ -61,7 +62,8 @@ Artist         Genre          MediaType      Track
 Customer       Invoice        Playlist   
 ```
 
-##Querying your tables
+**Querying Tables**
+--------------------
 Look at all the data from the Invoice table.
 ```
 sqlite> SELECT * FROM Invoice;
@@ -74,7 +76,8 @@ Did you notice that?  Capitalization doesn't matter in a SQL query!
 You'll often see commands such as SELECT, FROM, and WHERE in capital letters.
 This is only used to help us read it more easily but the computer doesn't care at all.
 
-## Finding the schema
+**Finding the schema**
+--------------------
 You can also look at the schema using the .schema command.
 
 ```
@@ -83,7 +86,8 @@ sqlite> .schema Album
 Use .help, .table, .schema look at some of the other tables.  
 Go crazy, explore it all!
 
-##Leaving the database
+**Leaving the Database**
+--------------------
 
 When you're all done exploring you can leave the database.
 ```
