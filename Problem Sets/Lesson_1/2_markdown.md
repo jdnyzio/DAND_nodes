@@ -50,13 +50,31 @@ Did you notice that?  Capitalization doesn't matter in a SQL query!
 You'll often see commands such as SELECT, FROM, WHERE in capital letters.
 This is only used to help us read it more easily but the computer doesn't care at all.
 
-Have a look at some of the other tables.  Go crazy, explore it all!
+##Schema
+You can also look at the schema using the .schema command.
+```
+.schema Album
+
+CREATE TABLE [Album]
+(
+    [AlbumId] INTEGER  NOT NULL,
+    [Title] NVARCHAR(160)  NOT NULL,
+    [ArtistId] INTEGER  NOT NULL,
+    CONSTRAINT [PK_Album] PRIMARY KEY  ([AlbumId]),
+    FOREIGN KEY ([ArtistId]) REFERENCES [Artist] ([ArtistId]) 
+		ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+CREATE UNIQUE INDEX [IPK_Album] ON [Album]([AlbumId]);
+CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId]);
+
+```
+Use .help, .table, .schema look at some of the other tables.  
+Go crazy, explore it all!
 
 When you're all done exploring you can leave the database.
 ```
 .exit 
 ```
-Goodbye friend.
 
 Can we query the table from outside the database?
 ```
