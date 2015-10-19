@@ -1,10 +1,6 @@
 **Welcome to your SQLite Environment!**
 ------------------------------------------
 
-After following instructions from the last slide, you're
-now the proud owner of a local SQLite environment.  
-You are ready to start navigating your brand new workspace!
-
 > [*Introduction*](#introduction)
 >
 > [*Accessing your Database*](#accessing-your-database)
@@ -24,12 +20,14 @@ You are ready to start navigating your brand new workspace!
 **Introduction**
 --------------------
 
-Here you'll learn how to navigate to your new database and do a few simple commands using SQLite.
+Welcome to your SQLite environment!  Here you'll learn how to navigate through your new workspace and get started using your first local database.
 
-We'll have a look at the Chinook database.  You'll be getting very familiar with this database as we continue through the course. 
+We're going to take a look at the Chinook database which you've downloaded from the Downloadables section of this course.
+
 The Chinook database represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.  
+You'll be getting very familiar with this database as we continue through the course. 
 
-Let's have a look!
+Let's get started!
 
 **Accessing your Database**
 --------------------
