@@ -11,7 +11,7 @@ new workspace.
 
 * Type the following commands into your terminal window to get started using SQLite3.
 
-#Accessing your database
+##Accessing your database
 ```
 cd your/file/path/class_db
 ls
@@ -22,7 +22,7 @@ Let's log into the Chinook_Sqlite database.
 sqlite3 Chinook_Sqlite.sqlite
 ```
 
-#Finding Help
+##Finding Help
 ```
 .help
 ```
@@ -37,29 +37,20 @@ Artist         Genre          MediaType      Track
 Customer       Invoice        Playlist   
 ```
 
-#Could you tell me what data is in the Invoice table?
+##Querying your tables
+Look at all the data from the Invoice table.
 ```
 SELECT * FROM Invoice;
 ```
-Thanks for your help!
-
 Try another table.
 ```
-SELECT * FROM instruments;
+SeLECt * froM EmPlOYee;
 ```
-Whoops, what happened!?
-```
-.tables
-```
-Looks like instruments isn't actually a table in the database.  
-No harm done though.  Don't be afraid to try new things :)
+Did you notice that?  Capitalization doesn't matter in a SQL query!
+You'll often see commands such as SELECT, FROM, WHERE in capital letters.
+This is only used to help us read it more easily but the computer doesn't care at all.
 
-Have a look at some of the other tables just how you did with the Invoice table.
-```
-SELECT * FROM Artist;
-```
-
-Go crazy, explore it all!
+Have a look at some of the other tables.  Go crazy, explore it all!
 
 When you're all done exploring you can leave the database.
 ```
