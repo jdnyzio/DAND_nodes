@@ -1,6 +1,10 @@
 **Welcome to your SQLite Environment!**
 ------------------------------------------
 
+After following instructions from the last slide, you're
+now the proud owner of a local SQLite environment.  You are
+ready to start navigating your brand new workspace.
+
 > [*Introduction*](#introduction)
 >
 > [*Accessing your Database*](#accessing-your-database)
@@ -14,10 +18,6 @@
 > [*Leaving the Database*](#leaving-the-database)
 
 --------------------------------------------
-
-After following instructions from the last slide, you're
-now the proud owner of a local SQLite environment.  You are
-ready to start navigating your brand new workspace.
 
 **Introduction**
 --------------------
