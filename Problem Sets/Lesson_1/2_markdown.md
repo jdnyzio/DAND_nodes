@@ -1,9 +1,9 @@
 **Welcome to your SQLite Environment!**
 ------------------------------------------
 
-> [*Introduction*](#Introduction)
+> [*Introduction*](#introduction)
 >
-> [*Accessing your Database*](#Accessing-your-Database)
+> [*Accessing your Database*](#accessing-your-database)
 >
 > [*Why this Project?*](#why-this-project)
 >
@@ -76,21 +76,9 @@ This is only used to help us read it more easily but the computer doesn't care a
 
 ## Finding the schema
 You can also look at the schema using the .schema command.
+
 ```
 sqlite> .schema Album
-
-CREATE TABLE [Album]
-(
-    [AlbumId] INTEGER  NOT NULL,
-    [Title] NVARCHAR(160)  NOT NULL,
-    [ArtistId] INTEGER  NOT NULL,
-    CONSTRAINT [PK_Album] PRIMARY KEY  ([AlbumId]),
-    FOREIGN KEY ([ArtistId]) REFERENCES [Artist] ([ArtistId]) 
-		ON DELETE NO ACTION ON UPDATE NO ACTION
-);
-CREATE UNIQUE INDEX [IPK_Album] ON [Album]([AlbumId]);
-CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId]);
-
 ```
 Use .help, .table, .schema look at some of the other tables.  
 Go crazy, explore it all!
