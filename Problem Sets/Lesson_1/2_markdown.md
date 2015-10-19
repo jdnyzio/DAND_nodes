@@ -3,7 +3,7 @@
 
 > [*Introduction*](#Introduction)
 >
-> [*Accessing your Database*](#Accessing your Database)
+> [*Accessing your Database*](#Accessing-your-Database)
 >
 > [*Why this Project?*](#why-this-project)
 >
@@ -15,12 +15,12 @@
 
 --------------------------------------------
 
-**Introduction**
---------------------
-
 After following instructions from the last slide, you're
 now the proud owner of a local SQLite environment.  You are
 ready to start navigating your brand new workspace.
+
+**Introduction**
+--------------------
 
 We'll start off by getting you familiar with the Chinook database which 
 you'll be using throughout these problem sets to practice using SQL.
