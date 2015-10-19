@@ -11,7 +11,7 @@ new workspace.
 
 * Type the following commands into your terminal window to get started using SQLite3.
 
-* Take a peek at your new class_db folder through your terminal window.
+#Accessing your database
 ```
 cd your/file/path/class_db
 ls
@@ -22,7 +22,7 @@ Let's log into the Chinook_Sqlite database.
 sqlite3 Chinook_Sqlite.sqlite
 ```
 
-Here's a quick way to see all your new superpowers!
+#Finding Help
 ```
 .help
 ```
@@ -31,9 +31,13 @@ Reaching out for help is a great way to learn.
 What tables do you see in the database?
 ```
 .tables
+
+Album          Employee       InvoiceLine    PlaylistTrack
+Artist         Genre          MediaType      Track        
+Customer       Invoice        Playlist   
 ```
 
-Could you tell me what data is in the Invoice table?
+#Could you tell me what data is in the Invoice table?
 ```
 SELECT * FROM Invoice;
 ```
