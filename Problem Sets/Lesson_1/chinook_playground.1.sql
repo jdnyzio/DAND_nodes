@@ -8,19 +8,12 @@
 #See if you can translate the following queries into the questions 
 #they were meant to answer. 
 
-#There is no DEFINITE answer since language can be so complex but the idea
-#is that a simplified version of the question you make should reduce to
-#the target query.
-
 #Try running these queries in the browser or in the local environment you've 
 #set up to see if they return what you expected!
 
 
 #QUESTION: What songs in this dataset were written by Van Halen?
 SELECT Name FROM Track WHERE Composer='Van Halen';
-#Another possibility: Can you find which songs Van Halen wrote that are in the dataset?
-
-#Now you try!
 
 #QUESTION:
 SELECT Name FROM Track WHERE Composer="AC/DC"; 
