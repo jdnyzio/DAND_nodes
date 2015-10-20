@@ -2,9 +2,10 @@
 #Who are they, where are they from, and what are they spending?
 #You'll use subqueries, joins, csvs, and your ability to create databases and tables to make it happen.
 
-#You've just seen how to export data into a csv, and how to import a csv into a database
-
 #What we want to do here is create a new database, and create a table to import your query into.
+#In the next slide, you'll learn to export your view as a CSV and import this file into your table.
+
+#See if you can create a schema that will match the query you are importing!
 
 #Create your table here
 

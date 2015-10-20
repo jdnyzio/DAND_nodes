@@ -22,6 +22,7 @@ complete these tasks as you need them.
 
 EXPORT DATA TO CSV FROM DATABASE
 ================================
+
 ```
 sqlite> .mode csv
 
@@ -41,6 +42,7 @@ $ sqlite3 newDB.db
 ```
 IMPORT YOUR CSV INTO A TABLE
 ============================
+
 ```
 sqlite> CREATE TABLE myTable()
 
