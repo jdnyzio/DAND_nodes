@@ -22,7 +22,7 @@ complete these tasks as you need them.
 
 EXPORT DATA TO CSV FROM DATABASE
 ================================
-
+```
 sqlite> .mode csv
 
 sqlite> .separator ','
@@ -32,15 +32,16 @@ sqlite> .output \<newFile.csv\>
 sqlite> SELECT \* FROM \<table\>;
 
 sqlite> .exit
+```
 
 CREATE A NEW DATABASE
 =====================
-
+```
 $ sqlite3 newDB.db
-
+```
 IMPORT YOUR CSV INTO A TABLE
 ============================
-
+```
 sqlite> CREATE TABLE myTable()
 
 sqlite> .mode csv
@@ -50,3 +51,4 @@ sqlite> .separator ','
 sqlite> .import \<newFile\> \<myTable\>
 
 sqlite> SELECT \* FROM \<myTable\>;
+```
