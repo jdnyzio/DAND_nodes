@@ -5,8 +5,7 @@ To get a table from one database into only takes a few steps.
 
 You’ll need to do the following.
 
--   [*EXPORT DATA TO CSV FROM
-    > DATABASE*](#export-data-to-csv-from-database)
+-   [*EXPORT DATA TO CSV FROM DATABASE*](#export-data-to-csv-from-database)
 
 -   [*CREATE A NEW DATABASE*](#create-a-new-database)
 
@@ -24,30 +23,30 @@ complete these tasks as you need them.
 EXPORT DATA TO CSV FROM DATABASE
 ================================
 
-sqlite\> .mode csv
+sqlite> .mode csv
 
-sqlite\> .separator ','
+sqlite> .separator ','
 
-sqlite\> .output \<newFile.csv\>
+sqlite> .output \<newFile.csv\>
 
-sqlite\> SELECT \* FROM \<table\>;
+sqlite> SELECT \* FROM \<table\>;
 
-sqlite\> .exit
+sqlite> .exit
 
 CREATE A NEW DATABASE
 =====================
 
-\$ sqlite3 newDB.db
+$ sqlite3 newDB.db
 
 IMPORT YOUR CSV INTO A TABLE
 ============================
 
-sqlite\> CREATE TABLE myTable()
+sqlite> CREATE TABLE myTable()
 
-sqlite\> .mode csv
+sqlite> .mode csv
 
-sqlite\> .separator ','
+sqlite> .separator ','
 
-sqlite\> .import \<newFile\> \<myTable\>
+sqlite> .import \<newFile\> \<myTable\>
 
-sqlite\> SELECT \* FROM \<myTable\>;
+sqlite> SELECT \* FROM \<myTable\>;
