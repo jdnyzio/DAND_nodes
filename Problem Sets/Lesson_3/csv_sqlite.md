@@ -27,9 +27,9 @@ sqlite> .mode csv
 
 sqlite> .separator ','
 
-sqlite> .output \<newFile.csv\>
+sqlite> .output <newFile.csv>
 
-sqlite> SELECT \* FROM \<table\>;
+sqlite> SELECT * FROM <table>;
 
 sqlite> .exit
 ```
@@ -48,7 +48,7 @@ sqlite> .mode csv
 
 sqlite> .separator ','
 
-sqlite> .import \<newFile\> \<myTable\>
+sqlite> .import <newFile> <myTable>
 
-sqlite> SELECT \* FROM \<myTable\>;
+sqlite> SELECT * FROM <myTable>;
 ```
