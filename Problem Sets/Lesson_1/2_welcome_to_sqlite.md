@@ -20,7 +20,10 @@
 **Introduction**
 --------------------
 
-Welcome to your SQLite environment!  Here you'll learn how to navigate through your new workspace and get started using your first local database.
+Welcome to your SQLite environment!  Here we'll be doing the following...
+* Navigating through your new workspace 
+* Getting started using your first local database.
+* Learning a few basic commands and running some local queries.
 
 We're going to take a look at the Chinook database which you've downloaded from the Downloadables section of this course.
 
