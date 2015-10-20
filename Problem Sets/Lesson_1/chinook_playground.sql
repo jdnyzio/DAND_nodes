@@ -1,11 +1,13 @@
-#At the heart of SQL is the ability to translate your curiosity and questions into a language that a database can understand.
+#At the heart of SQL is the ability to translate your
+and questions into a language that a database can understand.
 
-#The following lessons will teach you more about building your own queries and you'll find that they closely 
-#resemble the way you may have originally asked the question in your native language.
+#As you learn to build more complex queries, you'll find that they closely 
+#resemble how you originally thought about the question in your own language.
 
-#See if you can translate the following queries into the questions they were meant to answer. 
+#Try translating the following queries into the questions they were meant to answer. 
 
-#You can also run these queries in the browser or in the local environment you've set up to see if they return what you expected!
+#You can also run these queries in the browser or in the local environment you've 
+#set up to see if they return what you expected!
 
 #Example
 #What songs in this dataset were written by Van Halen?
