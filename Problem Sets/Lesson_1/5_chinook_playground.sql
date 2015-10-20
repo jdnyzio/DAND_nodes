@@ -1,16 +1,12 @@
 #At the heart of any SQL query is the ability to translate your
 #thoughts into a language that the database can understand.
 
-#As you learn to build queries, you'll find that the language 
-#closely resembles the structure of the question as you had 
-#originally thought of it in your own languge.
+#You'll find that SQL queries closely resemble the 
+#structure of your own question as you had 
+#thought of it in your own language.
 
 #See if you can translate the following queries into the questions 
 #they were meant to answer. 
-
-#There is no DEFINITE answer since language can be so complex but the idea
-#is that a simplified version of the question you make should reduce to
-#the target query.
 
 #Try running these queries in the browser or in the local environment you've 
 #set up to see if they return what you expected!
@@ -19,8 +15,6 @@
 #QUESTION: What songs in this dataset were written by Van Halen?
 SELECT Name FROM Track WHERE Composer='Van Halen';
 #Another possibility: Can you find which songs Van Halen wrote that are in the dataset?
-
-#Now you try!
 
 #QUESTION:
 SELECT Name FROM Track WHERE Composer="AC/DC"; 
