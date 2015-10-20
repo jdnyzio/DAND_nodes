@@ -17,8 +17,10 @@ You’ll be exporting the view you made and putting it into a new
 database!
 
 This is a useful skill but isn’t something you’ve been taught, or is
-obvious without having done before. You can follow the steps below to
-complete these tasks as you need them.
+obvious without having done before. 
+
+You can follow the steps below to export your view from the Chinook database
+and import it into your new database!
 
 EXPORT DATA TO CSV FROM DATABASE
 ================================
