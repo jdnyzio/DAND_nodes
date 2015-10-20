@@ -1,14 +1,14 @@
 #At the heart of any SQL query is the ability to translate your
-#thoughts into a language that your database can understand.
+#thoughts into a language that the database can understand.
 
 #As you learn to build queries, you'll find that the language 
-#closely resembles the question as you had originally thought 
-#of it in your native languge.
+#closely resembles the structure of the question as you had 
+#originally thought of it in your own languge.
 
 #See if you can translate the following queries into the questions 
 #they were meant to answer. 
 
-#You can also run these queries in the browser or in the local environment you've 
+#Try running these queries in the browser or in the local environment you've 
 #set up to see if they return what you expected!
 
 
