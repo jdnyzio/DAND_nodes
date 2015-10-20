@@ -24,8 +24,6 @@ SELECT Composer, COUNT(*) FROM Track WHERE Composer='Queen';
 #QUESTION:
 SELECT Composer, SUM(Milliseconds), SUM(Bytes) FROM Track WHERE Composer='Miles Davis';
 
-#Invoice 
-
 #QUESTION:
 SELECT min(Total), max(Total), avg(Total) from Invoice WHERE BillingCountry='Germany';
 
