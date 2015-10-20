@@ -1,8 +1,0 @@
-
-#Who are the 10 most prolific Composers in our dataset?
-
-SELECT COUNT(*) as num, Composer FROM Track 
-GROUP BY Composer
-ORDER BY num
-DESC
-LIMIT 10;

@@ -1,8 +1,8 @@
-Write the table names associated with each of the following schemas.
+#Write the table names associated with each of the following schemas.
 
 ##Table 1
 
-CREATE TABLE [-----]
+CREATE TABLE [?????]
 (
     [AlbumId] INTEGER  NOT NULL,
     [Title] NVARCHAR(160)  NOT NULL,
@@ -16,7 +16,7 @@ CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId]);
 
 ##Table 2
 
-CREATE TABLE [-----]
+CREATE TABLE [?????]
 (
     [InvoiceLineId] INTEGER  NOT NULL,
     [InvoiceId] INTEGER  NOT NULL,
@@ -35,7 +35,7 @@ CREATE INDEX [IFK_InvoiceLineTrackId] ON [InvoiceLine] ([TrackId]);
 
 ##Table 3
 
-CREATE TABLE [-----]
+CREATE TABLE [?????]
 (
     [GenreId] INTEGER  NOT NULL,
     [Name] NVARCHAR(120),
@@ -45,7 +45,7 @@ CREATE UNIQUE INDEX [IPK_Genre] ON [Genre]([GenreId]);
 
 ##Table 4
 
-CREATE TABLE [-----]
+CREATE TABLE [?????]
 (
     [InvoiceId] INTEGER  NOT NULL,
     [CustomerId] INTEGER  NOT NULL,
