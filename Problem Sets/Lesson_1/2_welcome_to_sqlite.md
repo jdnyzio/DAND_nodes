@@ -41,9 +41,9 @@ Let's get started!
 **Accessing your Database**
 --------------------
 
-You'll be accessing sqlite3 from your terminal window.
+You're able to access the sqlite3 using your terminal window.
 
-First, you'll need to navigate your terminal to the folder you've downloaded.
+First, you need to navigate your terminal into the folder you've downloaded.
 
 ```
 $ cd your/file/path/class_db
@@ -52,7 +52,7 @@ $ ls
 TODO-LIST FOLDER ITEMS HERE
 ```
 
-Now you can log into the Chinook_Sqlite database.
+The following command will log into the Chinook_Sqlite database.
 ```
 $ sqlite3 Chinook_Sqlite.sqlite
 ```
@@ -69,7 +69,7 @@ sqlite> .help
 **Looking at tables**
 --------------------
 
-What tables do you see in your database?
+Do you see these tables in your database?
 ```
 sqlite> .tables
 
@@ -80,7 +80,7 @@ Customer       Invoice        Playlist
 
 **Querying Tables**
 --------------------
-Have a look at all the data from the Invoice table.
+Let's have a look at all the data from the Invoice table.
 ```
 sqlite> SELECT * FROM Invoice;
 ```
@@ -93,7 +93,6 @@ sqlite> SELECT * FROM Employee;
 
 You nailed it!
 
-
 **Finding the schema**
 --------------------
 You can also look at the schema of each table using the .schema command.
@@ -102,8 +101,8 @@ You can also look at the schema of each table using the .schema command.
 sqlite> .schema Album
 ```
 
-Continue using .help, .table, .schema look at some of the other tables.  
-Go crazy, explore it all!  
+If you don't specify a table the .schema command will return the schema for all tables in the database.  
+Take some time to explore it all!  
 
 **Leaving the Database**
 --------------------
@@ -118,4 +117,6 @@ Can we query the table from outside the database?
 $ SELECT * FROM Album;
 ```
 No you can't! Great question though.  Stay curious!
+
+You can log back into the Chinook database to complete the problem set.
 
