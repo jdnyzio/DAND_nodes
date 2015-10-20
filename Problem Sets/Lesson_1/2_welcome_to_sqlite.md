@@ -102,6 +102,7 @@ sqlite> .schema Album
 ```
 
 If you don't specify a table the .schema command will return the schema for all tables in the database.  
+
 Take some time to explore it all!  
 
 **Leaving the Database**
