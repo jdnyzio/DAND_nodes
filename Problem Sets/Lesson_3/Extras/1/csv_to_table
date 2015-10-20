@@ -1,0 +1,44 @@
+#In this problem set, we're going to rebuild the Chinook database using CSV files.
+#We can then use our new SQL commands to play around with the data.
+
+
+#Schema 
+sqlite> .schema
+CREATE TABLE [Album]
+(
+    [AlbumId] INTEGER  NOT NULL,
+    [Title] NVARCHAR(160)  NOT NULL,
+    [ArtistId] INTEGER  NOT NULL,
+    CONSTRAINT [PK_Album] PRIMARY KEY  ([AlbumId]),
+    FOREIGN KEY ([ArtistId]) REFERENCES [Artist] ([ArtistId]) 
+		ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+CREATE UNIQUE INDEX [IPK_Album] ON [Album]([AlbumId]);
+CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId]);
+
+sqlite> .mode list
+sqlite> .separator , 
+sqlite> .output Album.csv
+sqlite> SELECT * FROM Album;
+sqlite> .output TABLE
+sqlite> .exit
+
+$ sqlite3 new_db
+
+sqlite> CREATE TABLE Artist(ArtistId, Name);
+sqlite> .tables
+sqlite>  Album   Artist
+sqlite> .separator , 
+sqlite> .import Album.csv Artist
+sqlite> CREATE TABLE [Album]
+(
+    [AlbumId] INTEGER  NOT NULL,
+    [Title] NVARCHAR(160)  NOT NULL,
+    [ArtistId] INTEGER  NOT NULL,
+    CONSTRAINT [PK_Album] PRIMARY KEY  ([AlbumId]),
+    FOREIGN KEY ([ArtistId]) REFERENCES [Artist] ([ArtistId]) 
+		ON DELETE NO ACTION ON UPDATE NO ACTION
+);
+CREATE UNIQUE INDEX [IPK_Album] ON [Album]([AlbumId]);
+CREATE INDEX [IFK_AlbumArtistId] ON [Album] ([ArtistId]);
+

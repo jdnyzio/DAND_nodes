@@ -19,3 +19,22 @@ SELECT Name, Milliseconds/1000
 FROM Track
 WHERE Name LIKE 'Black%'
 
+CREATE VIEW track_view AS
+SELECT Name, Composer, Milliseconds, Bytes
+FROM Track;
+
+
+
+CREATE VIEW over_avg AS
+SELECT Name, Composer,  Milliseconds, FROM Track, 
+    (SELECT avg(Milliseconds) as av FROM Track) as subq WHERE Milliseconds > av;
+    
+    
+    
+
+CREATE VIEW over_avg AS
+SELECT Track.Name, Track.Composer, Track.Milliseconds, Genre.Name
+FROM Track, 
+    (SELECT avg(Milliseconds) as av FROM Track) as subq WHERE Milliseconds > av
+JOIN Genre
+ON Track.GenreId = Genre.GenreId;

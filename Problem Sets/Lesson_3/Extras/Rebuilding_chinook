@@ -5,7 +5,7 @@ CREATE TABLE Album(AlbumId, Title, ArtistId)
 
 sqlite> CREATE TABLE Artist(ArtistId, Name);
 sqlite> .tables
-Album   Artist
+sqlite>  Album   Artist
 sqlite> .separator , 
 sqlite> .import Chinook_CSVs/Artist.csv Artist
 
