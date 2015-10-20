@@ -25,7 +25,7 @@ Welcome to your SQLite environment!  Here we'll be doing the following...
 * Getting started using your first local database.
 * Learning a few basic commands and running some local queries.
 
-We're going to take a look at the Chinook database which you've downloaded from the Downloadables section of this course.
+We'll going to take a look at the Chinook database which you can go downloaded from the Downloadables section of this course.
 
 The Chinook database represents a digital media store, including tables for artists, albums, media tracks, invoices and customers.  
 
