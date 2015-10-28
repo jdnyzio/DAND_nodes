@@ -6,5 +6,11 @@
 SELECT PlaylistTrack.TrackId, Playlist.Name
 FROM PlaylistTrack JOIN Playlist 
 ON PlaylistTrack.PlaylistId = Playlist.PlaylistId 
-ORDER BY TrackId 
-DESC;
+ORDER BY Name;
+
+
+SELECT TrackId, Name
+FROM PlaylistTrack 
+JOIN Playlist 
+ON PlaylistTrack.PlaylistId = Playlist.PlaylistId 
+ORDER BY Name;

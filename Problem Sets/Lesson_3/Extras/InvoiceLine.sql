@@ -11,3 +11,8 @@ CREATE TABLE [InvoiceLine]
     FOREIGN KEY ([TrackId]) REFERENCES [Track] ([TrackId]) 
 		ON DELETE NO ACTION ON UPDATE NO ACTION
 );
+
+
+
+
+scp -r general@10.10.7.2:"/mnt/main/general/Video\ Review/Courses/Intro-to-Data/Lesson\ 03/" .

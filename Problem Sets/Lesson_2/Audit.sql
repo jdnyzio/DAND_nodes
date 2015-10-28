@@ -23,7 +23,7 @@ SELECT Name FROM Track WHERE Composer="AC/DC";
 SELECT Composer, COUNT(*) FROM Track WHERE Composer='Queen';
 
 #QUESTION: What is the total time and file size of the songs written by Miles Davis in this dataset?
-SELECT Composer, SUM(Milliseconds), SUM(Bytes) FROM Track WHERE Composer='Wolfgang Amadeus Mozart';
+SELECT Composer, SUM(Milliseconds), SUM(Bytes) FROM Track WHERE Composer='Miles Davis';
 
 #QUESTION: What is the minimum, maximum, and average total bill on an invoice sent to Germany?
 SELECT min(Total), max(Total), avg(Total) from Invoice WHERE BillingCountry='Germany';

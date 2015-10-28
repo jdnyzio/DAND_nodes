@@ -11,7 +11,10 @@
 
 
 #Your Query
-SELECT Album.Title, Artist.Name 
-FROM Album JOIN Artist ON Artist.ArtistId = Album.ArtistId 
-WHERE Name ='Iron Maiden';
+SELECT Artist.Name, Album.Title
+FROM Album 
+JOIN Artist 
+ON Artist.ArtistId = Album.ArtistId 
+WHERE Name ='Iron Maiden' 
+OR Name ='Amy Winehouse';
 
