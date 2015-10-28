@@ -25,7 +25,7 @@ CREATE TABLE [Customer]
 (
     [FirstName] NVARCHAR(40)  NOT NULL,
     [LastName] NVARCHAR(20)  NOT NULL,
-    [Country] NVARCHAR(40),
+    [Country] NVARCHAR(40)
 );
 
 
