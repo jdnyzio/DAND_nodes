@@ -13,3 +13,17 @@ WHERE Milliseconds > 2500000
 AND Milliseconds < 2600000
 ORDER BY Milliseconds 
 DESC;
+
+
+SELECT COUNT(Name), Milliseconds 
+FROM Track 
+WHERE Milliseconds > 2500000 
+AND Milliseconds < 2600000
+ORDER BY Milliseconds 
+DESC;
+
+How many songs have a unit price higher than $1
+SELECT avg(Milliseconds), UnitPrice
+FROM Track
+WHERE UnitPrice = .99
+OR UnitPrice < 1.99;

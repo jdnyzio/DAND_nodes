@@ -32,4 +32,4 @@ FROM Invoice
 GROUP BY BillingCountry
 ORDER BY COUNT(*)
 DESC
-LIMIT 5;
+LIMIT 3;
