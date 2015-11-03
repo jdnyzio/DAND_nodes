@@ -45,7 +45,29 @@ SELECT BillingCity,
 FROM Invoice, 
     (SELECT avg(Total) as av 
      FROM Invoice) as subq 
+WHERE Total > av
+ORDER BY Total;
+
+How many invoice totals are above the average total?
+
+SELECT sum(Total)
+FROM Invoice, 
+    (SELECT avg(Total) as av 
+     FROM Invoice) as subq
 WHERE Total > av;
+
+
+
+
+SELECT BillingCity, 
+       BillingState,  
+       BillingCountry, 
+       Total 
+FROM Invoice, 
+    (SELECT avg(Total) as av 
+     FROM Invoice) as subq 
+WHERE Total > av
+AND BillingCountry='France';
 
       
 SELECT Name, Bytes
@@ -60,10 +82,43 @@ WHERE Bytes < average;
 How many invoices were receieved by the top 5 Countries?
 
 SELECT sum(total)
-FROM 
-(SELECT BillingCity, COUNT(*) as total
-FROM Invoice 
-GROUP BY BillingCountry
-ORDER BY COUNT(*)
-DESC
-LIMIT 5) AS subquery;
+FROM (SELECT COUNT(*) as total 
+      FROM Invoice 
+      GROUP BY BillingCountry
+      ORDER BY total
+      DESC LIMIT 5);
+      
+      
+SELECT FirstName, LastName, BillingCity, BillingState, BillingCountry, Total
+FROM Invoice JOIN Customer, 
+    (SELECT avg(Total) AS average
+    FROM Invoice) AS subquery
+WHERE Total > average;
+      
+
+
+CREATE TABLE [Track]
+(
+    [Name] NVARCHAR(200)  NOT NULL,
+    [Composer] NVARCHAR(220),
+    [Milliseconds] INTEGER  NOT NULL,
+    [Bytes] INTEGER
+);
+
+
+CREATE TABLE [Track]
+(
+    [FirstName] NVARCHAR(40)  NOT NULL,
+    [LastName] NVARCHAR(20)  NOT NULL,
+    [BillingCity] NVARCHAR(40),
+    [BillingState] NVARCHAR(40),
+    [BillingCountry] NVARCHAR(40),
+    [Total] NUMERIC(10,2)  NOT NULL
+);
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+CREATE TABLE [Track]
+(
+    [TrackId] INTEGER,
+    [Name] TEXT,
+    [AlbumId] INTEGER,
+    [MediaTypeId] INTEGER,
+    [GenreId] INTEGER,
+    [Composer] TEXT,
+    [Milliseconds] INTEGER,
+    [Bytes] INTEGER,
+    [UnitPrice] REAL
+);
+
