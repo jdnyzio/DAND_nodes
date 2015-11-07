@@ -1,0 +1,6 @@
+
+SELECT COUNT(*) as num, BillingCountry, min(Total), max(Total), avg(Total) FROM Invoice 
+GROUP BY BillingCountry
+ORDER BY num
+DESC
+LIMIT 10;

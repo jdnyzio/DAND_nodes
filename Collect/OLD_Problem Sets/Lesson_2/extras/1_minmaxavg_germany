@@ -1,0 +1,8 @@
+#Min max avg in germany
+
+SELECT min(Total), max(Total), avg(Total) from Invoice WHERE BillingCountry='Germany';
+
+
+SELECT BillingCountry, min(Total), max(Total), avg(Total) 
+FROM Invoice;
+
